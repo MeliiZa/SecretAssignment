@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/59d6e345a0.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Countable</title>
+  </head>
+  <body>
+  <!--Nav Bar-->
+    <nav>
+      <div class="logo">
+        <h4>COUNTABLE</h4>
+      </div>
+      <ul class="nav-links">
+        <li class= "active">
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#content-title">Content</a>
+        </li>
+      </ul>
+      <div id="parent">
+        <div><i id="child" class="fas fa-search"></i></div>
+        <div>
+          <div id="child" class="burger toggle">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!--Hero-->
+    <header class="hero">
+    <div><h3 class="hero-headline">My Favorite Things</h3>
+    <p class="hero-inner">Here are a few of my favorite things...</p>
+    </div>
+    </header>
+    <main>
+        <h2 id="content-title">FEATURED CONTENT</h2>
+        <section class="container" aria-labelledby="content">
+        <div class="cards">
+          <!--Card #1-->
+          <div>
+            <ul class="cards-wrapper">
+                <li class="card">
+                    <img
+                    class="card__image"
+                    src="./images/raindropsonroses.png"
+                    alt="card photo"
+                    />
+                    <div class="card__description">
+                    <h3>Raindrops on Roses</h3>
+                    <p>Description</p>
+                    </div>
+                </li>
+            </ul>
+          </div>
+          <!--Card #2-->
+          <div>
+            <ul class="cards-wrapper">
+                <li class="card">
+                    <img
+                    class="card__image"
+                    src="./images/whiskersinkittens.png"
+                    alt="card photo"
+                    />
+                    <div class="card__description">
+                    <h3>Whiskers in Kittens</h3>
+                    <p>Description</p>
+                    </div>
+                  </li>
+                </ul>
+          </div>
+          <!--Card #3-->
+          <ul class="cards-wrapper">
+              <li class="card">
+                  <img
+                  class="card__image"
+                  src="./images/brightcopperkettles.png"
+                  alt="card photo"
+                  />
+                  <div class="card__description">
+                  <h3>Bright Copper Kettles</h3>
+                  <p>Description</p>
+                  </div>
+                </li>
+              </ul>
+          <!--Card #4-->
+          <ul class="cards-wrapper">
+              <li class="card">
+                  <img
+                  class="card__image"
+                  src="./images/warmwoollenmittens.png"
+                  alt="card photo"
+                  />
+                  <div class="card__description">
+                  <h3>Warm Woolen Mittens</h3>
+                  <p>Description</p>
+                  </div>
+                </li>
+              </ul>
+          <!--Card #4-->
+          <ul class="cards-wrapper">
+              <li class="card">
+                  <img
+                  class="card__image"
+                  src="./images/brownpaperpackages.png"
+                  alt="card photo"
+                  />
+                  <div class="card__description">
+                  <h3>Brown paper packages tied up with string</h3>
+                  <p>Description</p>
+                  </div>
+                </li>
+              </ul>
+        </div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
