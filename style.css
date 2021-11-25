@@ -8,9 +8,16 @@
 a {
   padding: 15px;
 }
+
 h3 {
   padding: 5px;
   color: #4a5053;
+}
+
+h4 {
+  padding: 15px;
+  color:#3F464B;
+  font-weight: 600;
 }
 
 p {
@@ -23,16 +30,18 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: grey;
+  color:#3F464B;
   letter-spacing: 3px;
   padding-top: 30px;
   margin-top: 50px;
 }
+
 nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   min-height: 8vh;
+  margin: 10px
 }
 
 .logo {
@@ -52,6 +61,7 @@ nav {
 .nav-links li {
   list-style: none;
 }
+
 .nav-links a {
   text-decoration: none;
   letter-spacing: 3px;
@@ -59,22 +69,22 @@ nav {
   color: grey;
 }
 
-li.active::after {
+/*li.active::after {
   position: absolute;
   content: "";
   height: 3px;
-  width: 100%;
+  width: 80%;
   background-color: grey;
   left: 0;
   bottom: -7px;
-}
+}*/
 
 .burger {
   cursor: pointer;
 }
 
 .burger div {
-  background-color: grey;
+  background-color:#3F464B;;
   width: 25px;
   height: 3px;
   margin: 5px;
@@ -82,7 +92,7 @@ li.active::after {
 }
 
 .fas {
-  color: grey;
+  color: #3F464B;;
   position: relative;
 }
 
@@ -120,6 +130,8 @@ li.active::after {
   filter: drop-shadow(3px 3px 5px white);
 }
 
+
+
 .hero-inner {
   color: white;
   text-align: center;
@@ -148,8 +160,8 @@ ul {
   max-width: 900px;
   margin: 0 auto;
   grid-gap: 2rem;
-  /*grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));*/
-  grid-template-columns: repeat(2, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  /*grid-template-columns: repeat(2, minmax(240px, 1fr));*/
 }
 
 .card {
@@ -196,9 +208,10 @@ ul {
     display: flex;
     flex-direction: column;
     align-content: center;
-    width: 97%;
+    width: 100%;
     transform: translateX(100%);
     transition: transform 0.5s ease-in;
+    
   }
   .nav-links li {
     opacity: 0;
