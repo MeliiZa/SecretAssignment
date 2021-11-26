@@ -6,7 +6,7 @@
 }
 
 a {
-  padding: 15px;
+  padding: 10px;
 }
 
 h3 {
@@ -16,7 +16,7 @@ h3 {
 
 h4 {
   padding: 15px;
-  color:#3F464B;
+  color: #3f464b;
   font-weight: 600;
 }
 
@@ -30,7 +30,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  color:#3F464B;
+  color: #3f464b;
   letter-spacing: 3px;
   padding-top: 30px;
   margin-top: 50px;
@@ -68,22 +68,18 @@ nav {
   color: grey;
 }
 
-/*li.active::after {
-  position: absolute;
-  content: "";
-  height: 3px;
-  width: 80%;
-  background-color: grey;
-  left: 0;
-  bottom: -7px;
-}*/
+.nav-links a:hover {
+  transition: all ease-in-out 200ms;
+  border-bottom: 2px solid grey;
+}
+
 
 .burger {
   cursor: pointer;
 }
 
 .burger div {
-  background-color:#3F464B;;
+  background-color: #3f464b;
   width: 25px;
   height: 3px;
   margin: 5px;
@@ -91,7 +87,7 @@ nav {
 }
 
 .fas {
-  color: #3F464B;;
+  color: #3f464b;
   position: relative;
 }
 
@@ -128,8 +124,6 @@ nav {
   justify-content: center;
   filter: drop-shadow(3px 3px 5px white);
 }
-
-
 
 .hero-inner {
   color: white;
@@ -210,7 +204,6 @@ ul {
     width: 100%;
     transform: translateX(100%);
     transition: transform 0.5s ease-in;
-    
   }
   .nav-links li {
     opacity: 0;
@@ -232,14 +225,14 @@ ul {
   }
 }
 
-.toggle .line1 {
+.toggle-icon .line1 {
   transform: rotate(-45deg) translate(-5px, 6px);
 }
 
-.toggle .line2 {
+.toggle-icon .line2 {
   opacity: 0;
 }
 
-.toggle .line3 {
+.toggle-icon .line3 {
   transform: rotate(45deg) translate(-5px, -6px);
 }

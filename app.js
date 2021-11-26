@@ -16,7 +16,7 @@ const navSlide = () => {
             }
         });
     //Burger Transforms to X animation
-        burger.classList.toggle('toggle');
+        burger.classList.toggle('toggle-icon');
     });
 }
 
