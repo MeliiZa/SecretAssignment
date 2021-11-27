@@ -4,7 +4,7 @@ This is a take-home assignment given to me by Countable for the Web Developer, C
 
 ## The challenge
 
-Countable provided me with screenshots to replicate into a website considering responsive layouts.
+Countable provided me with screenshots to replicate into a responsive website.
 
 ## Table of Contents
 
