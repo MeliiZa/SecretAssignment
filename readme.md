@@ -34,4 +34,4 @@ https://github.com/MeliiZa/SecretAssignment.git
 
 ## Try it online:
 
-[Online Version](https://github.com/MeliiZa/SecretAssignment)
+[Online Version](https://meliiza.github.io/SecretAssignment/)
