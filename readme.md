@@ -20,11 +20,11 @@ Countable provided me with screenshots to replicate into a responsive website.
 
 ## Setup/Installation
 
-To have this app running on your local computer, please follow the below steps:
+To run this app on your local computer, please follow the below steps:
 
 1. Open Terminal.
 
-2.Change the current working directory to the location where you want the cloned directory.
+2. Change the current working directory to the location where you want the cloned directory.
 
 Type git clone, and then paste the following url:
 https://github.com/MeliiZa/SecretAssignment.git
